@@ -1,0 +1,7 @@
+interface:
+  display_name: "计算生物学组会文献讲解"
+  short_description: "把论文讲懂：具体结论标题、原图读图解释、自然中文备注和讲稿"
+  icon_large: "./assets/preview.png"
+  default_prompt: "请使用 $compbio-journal-club-ppt，将这篇文献及补充材料制作成易懂的中文组会 PPTX，包含逐页讲者备注和讲稿，默认汇报 20–25 分钟。"
+policy:
+  allow_implicit_invocation: true
